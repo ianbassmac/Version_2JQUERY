@@ -1,0 +1,92 @@
+/* Source: https://www.youtube.com/watch?v=wHZCYi1K664*/
+
+html, body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 180px;
+            padding: 0;
+            width: 384px;
+        }
+        
+        h1 {
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0;
+            color: black;
+        }
+        
+        a:link, a:visited {
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+        
+        img {
+            width: 30px;
+        }
+        
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+        
+        .modal-content {
+            padding: 0 35px;
+        }
+        
+        .modal-icons {
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+        
+        .logo {
+            padding: 10px;
+        }
+        
+        .logo-icon {
+            width: 200px;
+            vertical-align: middle;
+            margin-right: 12px;
+            margin-left: 35px
+        }
+        
+        .version {
+            color: #444;
+            font-size: 18px;
+        }
+        
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 10%;
+            margin-left: 18px;
+        }
+        
+        .flex {
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+        
+        .flex:hover {
+            opacity: 0.4;
+        }
+        
+        .flex .fa {
+            font-size: 40px;
+            color: black;
+        }
+
+        .pickr-label {
+            text-align: center
+        }
+
+        .pickr-container {
+            min-height: 35px;
+            padding: 2% 50%;
+            font-family: 'Open Sans', sans-serif;
+          
+        }
